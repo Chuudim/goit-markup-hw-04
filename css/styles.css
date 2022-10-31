@@ -197,6 +197,8 @@ margin-right: 0%;
     padding: 200px 0;
     background-image: url(../images/background.png);
     background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 
