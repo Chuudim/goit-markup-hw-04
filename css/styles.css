@@ -195,7 +195,7 @@ margin-right: 0%;
 .main-section {
     background-color: rgba(47, 48, 58, 0.4);
     padding: 200px 0;
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.png) center;
     background-size: cover;
 }
 
