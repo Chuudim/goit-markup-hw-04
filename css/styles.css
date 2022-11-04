@@ -21,10 +21,10 @@ text-decoration: none;
 color: var(--black-color);
 }
 
-/* .link:hover,
+.link:hover,
 .link:focus {
     color: var(--accent-color)
-} */
+}
 
 .list {
     list-style: none;
@@ -135,7 +135,6 @@ margin-right: 0%;
 .adress-icon {
     fill: currentColor;
    margin-right: 10px;
-
 }
 
 .adress-icon:hover ,
@@ -195,6 +194,7 @@ margin-right: 0%;
     padding: 200px 0;
     background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-bkg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
@@ -641,9 +641,9 @@ display: flex;
         color: var(--title-text-color);
 }
 
-.examples-item {
+/* .examples-item {
  flex-basis: calc((100% - 30px * 6) / 9);
-}
+} */
 
 .examples-link:hover ,
 .examples-link:focus {
